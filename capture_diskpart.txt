@@ -1,0 +1,14 @@
+select disk 0
+select part 1
+assign letter="S"
+select part 2
+assign letter="W"
+select part 3
+assign letter="Y"
+list vol
+
+select disk 2
+select part 1
+assign letter="H"
+
+exit

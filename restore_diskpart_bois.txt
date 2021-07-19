@@ -1,0 +1,13 @@
+select disk 0
+clean
+
+create partition primary size=549
+format quick fs=ntfs label="System"
+assign letter="S"
+active
+create partition primary size=81920
+format quick fs=ntfs label="Windows"
+assign letter="W"
+
+list vol
+exit
